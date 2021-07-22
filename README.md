@@ -1,6 +1,38 @@
 # Sophos_VPN_Steuerung
 Steuerung von Fernzugriffen mittels Python Tool (Sowohl Sophos User als auch Regeln)
 
+## Ferwartungssteuerung durch Benutzer
+
+### Initial Maske
+
+Startet man das Programm wird man mit der Firmen Ansicht konfrontiert.
+
+![standard-firmen-maske](bilder/standard-firmen-mask.PNG)
+
+Firmen mit einem roten Button haben momentan keinen Zugriff auf das Netzwerk.
+Firmen mit einem grünen Buttone haben Zugriff.
+
+### Firmen zuschalten
+
+Möchte der Benutzer eine Firma zuschalten, tut er dies mit der betätigung des roten Buttons mit dem Lable _Off_.
+Darauf hin bekommt er ein Popup indem er aufgefordert wird seinen *benutzerspezifischen Pin* einzugeben.
+
+![pin_eingabe](bilder/pin_eingabe.PNG)
+
+Die eingabe seines Pins bestätigt er mit dem Button _OK_.
+Nun sollte die Firma einen grünen Button haben mit dem Lable _ON_.
+
+### Firmen abschalten
+
+Möchte der Benutzer eine Firma zuschalten, tut er dies mit der betätigung des roten Buttons mit dem Lable _ON_.
+Darauf hin bekommt er ein Popup indem er aufgefordert wird seinen *benutzerspezifischen Pin* einzugeben.
+
+![pin_eingabe](bilder/pin_eingabe.PNG)
+
+Die eingabe seines Pins bestätigt er mit dem Button _OK_.
+Nun sollte die Firma einen roten Button haben mit dem Lable _OFF_.
+
+
 ## Benutzersteuerung
 
 ### Benutzer anlegen
