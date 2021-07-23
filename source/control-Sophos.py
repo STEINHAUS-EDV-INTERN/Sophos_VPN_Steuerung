@@ -713,8 +713,10 @@ def maingui(SophosAuth):
             window.BringToFront()
         if event == "Logs":
             window.disable()
-            show_log_window()
+            if adminauth(SophosAuth.password):
+                show_log_window()
             window.enable()
+            window.BringToFront
         if event in (None, "Exit"):
             window.Close()
             break
