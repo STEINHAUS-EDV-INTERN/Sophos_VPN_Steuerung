@@ -1,14 +1,14 @@
-# Sophos_VPN_Steuerung
+# Sophos VPN-Fernsteuerung
 Steuerung von Fernzugriffen mittels Python Tool (Sowohl Sophos User als auch Regeln)
 
 ## Wichtige Informationen
 
-- Benutzer Pins können bei Bedarf mehr als 4-Stellige Pins haben
+- Benutzer Pins/Passwörter können bei Bedarf mehr als 4-Stellige sein
 - Logs können durch die EDV-Abteilung eingesehen werden
 - Logs können durch die EDV-Abteilung zurückgesetzt werden
 - Neue Firmen können und sollten nur durch die EDV hinzugefügt werden
-- Pins von Benutzern dürfen auf keinen Fall weitergesagt werden
-- Sollten ein neuer Benutzer benötigt werden wird dies nur vom zuständigen Administrator getan
+- Pins/Passwörter von Benutzern sind personenbezogen und dürfen nicht weitergesagt werden
+- Sollten ein neuer Benutzer benötigt werden wird dies  vom zuständigen Administrator durchgeführt
 - Das Administratorpasswort darf niemals digital vorliegen (Optimalerweise auch nicht physikalisch)
 
 ## Fernwartungsteuerung durch Benutzer
@@ -30,17 +30,17 @@ Darauf hin bekommt er ein Pop-up, indem er aufgefordert wird seinen *benutzerspe
 ![pin_eingabe](http://weissenfels.icu/bilder/ping_eingabe.PNG)
 
 Die Eingabe seines Pins bestätigt er mit dem Button _OK_.
-Nun sollte die Firma einen grünen Button haben mit dem Lable _ON_.
+Nun sollte die angewählte Firma einen grünen Button haben mit dem Lable _ON_.
 
 ### Firmen abschalten
 
-Möchte der Benutzer eine Firma abschalten, tut er dies mit der Betätigung des roten Buttons mit dem Lable _ON_.
-Darauf hin bekommt er ein Pop-up, indem er aufgefordert wird seinen *benutzerspezifischen Pin* einzugeben.
+Möchte der Benutzer eine Firma abschalten, tut er dies mit der Betätigung des roten Buttons mit dem Lable _FF_.
+Darauf hin bekommt er ein Pop-up, indem er aufgefordert wird seinen *Benutzerspezifischen Pin* einzugeben.
 
 ![pin_eingabe](http://weissenfels.icu/bilder/ping_eingabe.PNG)
 
 Die Eingabe seines Pins bestätigt er mit dem Button _OK_.
-Nun sollte die Firma einen roten Button haben mit dem Lable _OFF_.
+Nun sollte die angewählte Firma einen roten Button haben mit dem Lable _OFF_.
 
 ## Nachverfolgbarkeit
 
@@ -49,6 +49,12 @@ Um diese Logs einzusehen, bietet die Oberfläche einen Button _Logs_.
 
 ![log_button](http://weissenfels.icu/bilder/log_button.png)
 
+Mit dem Klick auf den Button Logs erscheint folgende Maske
+
+![admin_auth](http://weissenfels.icu/bilder/admin_auth.PNG)
+
+Hier muss nun die Eingabe des _Admin Passworts_ erfolgen (längerer Schlüssel).
+Nach Eingabe des Schlüssels das ganze mit dem _OK_ Button bestätigen.
 Daraufhin öffnet sich ein neues Fenster mit allen wichtigen Informationen.
 
 ![log_maske](http://weissenfels.icu/bilder/log_maske.PNG)
@@ -74,7 +80,7 @@ dies geschieht mit einem Namen und einem 4-Stelligen Pin.
 
 ![neuer_benutzer_eingeben](http://weissenfels.icu/bilder/neuer_benutzer_eingeben.PNG)
 
-Hier Beispielhaft mit dem Benutzer testbenutzer mit dem Pin 1234.
+Hier Beispielhaft mit dem Benutzer *testbenutzer* mit dem Pin 1234.
 Diese Aktion dann bestätigen mit dem Button _Benutzer hinzufügen_.
 
 ### Benutzer löschen
