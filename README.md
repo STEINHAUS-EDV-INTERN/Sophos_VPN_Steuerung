@@ -17,7 +17,7 @@ Steuerung von Fernzugriffen mittels Python Tool (Sowohl Sophos User als auch Reg
 
 Startet der Benutzer das Programm, wird er mit der Firmen Ansicht konfrontiert.
 
-![standard-firmen-maske](http://weissenfels.icu/bilder/standard-firmen-maske.PNG)
+![standard-firmen-maske](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/standard-firmen-maske.PNG)
 
 Firmen mit einem roten Button haben momentan keinen Zugriff auf das Netzwerk.
 Firmen mit einem grünen Button haben Zugriff.
@@ -27,7 +27,7 @@ Firmen mit einem grünen Button haben Zugriff.
 Möchte der Benutzer eine Firma zuschalten, tut er dies mit der Betätigung des roten Buttons mit dem Lable _Off_.
 Darauf hin bekommt er ein Pop-up, indem er aufgefordert wird seinen *benutzerspezifischen Pin* einzugeben.
 
-![pin_eingabe](http://weissenfels.icu/bilder/ping_eingabe.PNG)
+![pin_eingabe](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/ping_eingabe.PNG)
 
 Die Eingabe seines Pins bestätigt er mit dem Button _OK_.
 Nun sollte die angewählte Firma einen grünen Button haben mit dem Lable _ON_.
@@ -37,7 +37,7 @@ Nun sollte die angewählte Firma einen grünen Button haben mit dem Lable _ON_.
 Möchte der Benutzer eine Firma abschalten, tut er dies mit der Betätigung des roten Buttons mit dem Lable _FF_.
 Darauf hin bekommt er ein Pop-up, indem er aufgefordert wird seinen *Benutzerspezifischen Pin* einzugeben.
 
-![pin_eingabe](http://weissenfels.icu/bilder/ping_eingabe.PNG)
+![pin_eingabe](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/ping_eingabe.PNG)
 
 Die Eingabe seines Pins bestätigt er mit dem Button _OK_.
 Nun sollte die angewählte Firma einen roten Button haben mit dem Lable _OFF_.
@@ -47,17 +47,17 @@ Nun sollte die angewählte Firma einen roten Button haben mit dem Lable _OFF_.
 Die Nachverfolgbarkeit von Zu- und Abschaltungen ist gewährt durch ein Logging von allen Aktionen.
 Um diese Logs einzusehen, bietet die Oberfläche einen Button _Logs_.
 
-![log_button](http://weissenfels.icu/bilder/log_button.png)
+![log_button](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/log_button.png)
 
 Mit dem Klick auf den Button Logs erscheint folgende Maske
 
-![admin_auth](http://weissenfels.icu/bilder/admin_auth.PNG)
+![admin_auth](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/admin_auth.PNG)
 
 Hier muss nun die Eingabe des _Admin Passworts_ erfolgen (längerer Schlüssel).
 Nach Eingabe des Schlüssels das ganze mit dem _OK_ Button bestätigen.
 Daraufhin öffnet sich ein neues Fenster mit allen wichtigen Informationen.
 
-![log_maske](http://weissenfels.icu/bilder/log_maske.PNG)
+![log_maske](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/log_maske.PNG)
 
 Einträge, die länger zurückliegen und somit obsolet sind können durch die EDV-Abteilung entfernt werden (eigentlich nicht nötig).
 
@@ -67,18 +67,18 @@ Einträge, die länger zurückliegen und somit obsolet sind können durch die ED
 
 Um einen neuen Benutzer anzulegen, muss zunächst die Admin-Steuerung geöffnet werden.
 
-![admin_rot_kreis](http://weissenfels.icu/bilder/admin_rot_kreis.PNG)
+![admin_rot_kreis](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/admin_rot_kreis.PNG)
 
 Mit dem Klick auf den Button Admin erscheint folgende Maske
 
-![admin_auth](http://weissenfels.icu/bilder/admin_auth.PNG)
+![admin_auth](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/admin_auth.PNG)
 
 Hier muss nun die Eingabe des _Admin Passworts_ erfolgen (längerer Schlüssel).
 Mit dem Klick auf OK gelangt der Administrator dann in die Benutzersteuerung.
 Hier kann der Administrator im unteren Bereich einen neuen Benutzer anlegen,
 dies geschieht mit einem Namen und einem 4-Stelligen Pin.
 
-![neuer_benutzer_eingeben](http://weissenfels.icu/bilder/neuer_benutzer_eingeben.PNG)
+![neuer_benutzer_eingeben](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/neuer_benutzer_eingeben.PNG)
 
 Hier Beispielhaft mit dem Benutzer *testbenutzer* mit dem Pin 1234.
 Diese Aktion dann bestätigen mit dem Button _Benutzer hinzufügen_.
@@ -87,32 +87,32 @@ Diese Aktion dann bestätigen mit dem Button _Benutzer hinzufügen_.
 
 Um einen bestehenden Benutzer zu löschen, muss zunächst die Admin-Steuerung geöffnet werden.
 
-![admin_rot_kreis](http://weissenfels.icu/bilder/admin_rot_kreis.PNG)
+![admin_rot_kreis](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/admin_rot_kreis.PNG)
 
 Mit dem Klick auf den Button Admin erscheint folgende Maske
 
-![admin_auth](http://weissenfels.icu/bilder/admin_auth.PNG)
+![admin_auth](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/admin_auth.PNG)
 
 Hier muss nun die Eingabe des _Admin Passworts_ erfolgen (längerer Schlüssel).
 Mit dem Klick auf OK gelangt der Administrator dann in die Benutzersteuerung.
 Hier kann der Administrator den bestehenden Benutzer löschen, indem er den Button _Benutzer löschen_ betätigt.
 
-![benuter-loeschen](http://weissenfels.icu/bilder/benutzer-loeschen.PNG)
+![benuter-loeschen](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/benutzer-loeschen.PNG)
 
 ### Benutzer Pins ändern
 
 Um einen bestehenden Benutzer zu löschen, muss zunächst die Admin-Steuerung geöffnet werden.
 
-![admin_rot_kreis](http://weissenfels.icu/bilder/admin_rot_kreis.PNG)
+![admin_rot_kreis](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/admin_rot_kreis.PNG)
 
 Mit dem Klick auf den Button Admin erscheint folgende Maske
 
-![admin_auth](http://weissenfels.icu/bilder/admin_auth.PNG)
+![admin_auth](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/admin_auth.PNG)
 
 Hier muss nun die Eingabe des _Admin Passworts_ erfolgen (längerer Schlüssel).
 Mit dem Klick auf OK gelangt der Administrator dann in die Benutzersteuerung.
 Hier kann der Administrator den Pin eines bestehenden Benutzers ändern indem er ihn neu eintippt.
 
-![benutzer_pin_aender](http://weissenfels.icu/bilder/benutzer_pin_aendern.PNG)
+![benutzer_pin_aender](https://github.com/STEINHAUS-EDV-INTERN/Sophos_VPN_Steuerung/blob/main/bilder/benutzer_pin_aendern.PNG)
 
 Bestätigt werden muss das ganze mit dem Button _Übernehmen_
